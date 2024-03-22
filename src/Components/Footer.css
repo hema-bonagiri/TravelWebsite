@@ -1,0 +1,25 @@
+.bi-facebook:hover {
+    color: blue;
+
+}
+
+.bi-twitter-x:hover {
+    color: black
+}
+
+.bi-google:hover {
+    color: red;
+}
+
+
+.bi-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    border-radius: 20%;
+    transform: scale(1.5);
+    color: transparent;
+}
+
+.text-reset {
+    text-decoration: none;
+}

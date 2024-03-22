@@ -1,0 +1,62 @@
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: white !important;
+}
+
+.navbar-nav:first-child {
+    margin-left: 5vw;
+    gap: 5vw;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+.navbar-brand {
+    margin-left: 3vw;
+    margin-right: 1vw;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: orange;
+    color: white !important;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+
+.bi {
+    font-size: 1.5rem;
+    margin-right: 0.7vw;
+
+}
+
+.btn {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.d-flex {
+    margin-right: 8vw;
+    margin-left: 0;
+}

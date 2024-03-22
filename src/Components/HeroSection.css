@@ -1,0 +1,110 @@
+.carousel-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 90vh !important;
+    opacity: 0.8;
+
+}
+
+.bi-body-text {
+    color: orange;
+}
+
+
+
+.carousel-item {
+    position: relative;
+}
+
+
+.heading {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+    opacity: 1 !important;
+}
+
+.heading h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.heading i {
+    font-size: 2em;
+    /* Adjust the icon size as needed */
+    margin-bottom: 10px;
+    /* Adjust the margin as needed */
+    opacity: 1;
+}
+
+.heading p {
+    font-size: 1.2em;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    /* Adjust the line height as needed */
+    margin: 0;
+    opacity: 1;
+}
+
+.heading .Dest {
+    position: relative;
+    left: 95%;
+    color: white;
+    font-size: 1.75rem;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+}
+
+.heading .bi-airplane {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.heading .Dest:hover {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.cardrow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    background-color: rgb(224, 235, 230);
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+
+.heading1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(224, 235, 230);
+    padding-top: 20px;
+}
+
+.cardrow .bi-airplane,
+.bi-book-half,
+.bi-building,
+.bi-umbrella-fill,
+.bi-activity {
+    color: orange;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
